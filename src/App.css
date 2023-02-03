@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+/* HomePageCss */
+.home {
+  height: 100%;
+}
+
+.HomeMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/seo-optimizacija-sajta-za-turisticke-agencije-1024x683.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+}
+.HomeMain h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.AboutUS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 20px;
+}
+.AboutUS h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.arrangements {
+  margin-top: 20px;
+}
+.arrangementOffer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  gap: 20px;
+}
+.proba {
+  max-width: 100%;
+}
+.proba img {
+  max-width: 100%;
+}
